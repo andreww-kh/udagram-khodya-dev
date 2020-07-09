@@ -15,5 +15,8 @@ export const config = {
     "database": "",
     "host": "",
     "dialect": ""
+  },
+  "jwt": {
+    "secret": process.env.UDAGRAM_JWT_SECRET
   }
 }
